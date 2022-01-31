@@ -21,6 +21,7 @@ namespace Datos
                 try
                 {
                     //Comentario en develop
+                    //Comentario en developJose
                     db.Database.BeginTransaction();
 
                     var result = db.sp_UpdatePersona(Id_Persona, Nombre, Apellido);
