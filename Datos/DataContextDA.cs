@@ -20,6 +20,7 @@ namespace Datos
                 bool inserto = false;
                 try
                 {
+                    //Comentario en develop
                     db.Database.BeginTransaction();
 
                     var result = db.sp_UpdatePersona(Id_Persona, Nombre, Apellido);
